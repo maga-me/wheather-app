@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #4793FF;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        font-size: 25px;
+    }
+
+    &__form {
+        max-width: 250px;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+
+        &-input {
+            width: 100%;
+            border-radius: 10px;
+            background: rgba(71, 147, 255, 0.20);
+            padding: 9px 20px;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--text);
+        }
+
+        img {
+            cursor: pointer;
+        }
+    }
+}

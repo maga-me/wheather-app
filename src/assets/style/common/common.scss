@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+input, button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+body.light-theme {
+    --bg: #fff;
+    --text: #000;
+}
+
+body.dark-theme {
+    --bg: #000;
+    --text: #fff;
+}
+
+body {
+    transition: 0.4s;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
